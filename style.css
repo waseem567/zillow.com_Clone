@@ -1,0 +1,223 @@
+/* notificatin manu */
+*{
+margin: 0;padding: 0;box-sizing: border-box;
+}
+.ffIvar{
+font-family: "Ivar Headline","Ivar Headline Subset","Times New Roman",serif;
+}
+.tOpHeader{
+background: rgb(242, 244, 255);
+position: relative;
+}
+.tOpHeader span.bold{
+font-weight: 600;
+}
+.tOpHeader p{
+font-size: large;
+margin: 0%;
+}
+.tOpHeader p a{
+font-weight: 600;
+text-decoration: none;
+color: rgb(6, 6, 175);
+}
+.tOpHeader button{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+right: 20px;
+border-radius: 50%;
+text-align: center;
+height: 40px;
+width: 40px;
+font-size: 20px;
+background: none;
+border: none;
+transition: .5s;
+}
+.tOpHeader button:hover{
+border: 2px solid #dee2e6 !important;
+}
+/* navbar goes here */
+.wallpaper{
+position: relative;
+padding: 0% !important;
+background: #fff;
+background-image: url(https://www.zillowstatic.com/s3/homepage/static/_Desktop_Overlay_ChangeStartsHere_HC.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-origin: content-box;
+height: 80vh;
+}
+.wallpaper h1{
+color: #fff;
+text-align: center;
+font-family: "Ivar Headline","Ivar Headline Subset","Times New Roman",serif;
+}
+.wallpaper .navContainer{
+background: #fff;
+}
+.navContainer .firstList .firstUl{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+}
+.navContainer .firstList .firstUl li a{
+font-size: large;
+text-decoration: none;
+color: black;
+}
+.navContainer .logo img{
+height: 35px;
+}
+.inputBox{
+width: 40%;
+margin: 40px auto;
+position: relative;
+}
+.inputBox input{
+width: 100%;
+border-radius: 4px;
+font-weight: 600;
+}
+.inputBox .searchIcon{
+position: absolute;
+top: 50%;
+right: 15px;
+transform: translateY(-50%);
+font-size: 11px;
+color: black;
+}
+.inputBox .searchIcon i{
+cursor: pointer;
+}
+section.secondSection{
+background: #f5f5fa;
+}
+section.secondSection .desc{
+font-family: "Ivar Headline","Ivar Headline Subset","Times New Roman",serif;
+line-height: 16px;
+}
+section.secondSection .cardBox{
+box-shadow: 0px 3px 5px 2px rgba(227,222,222,1);
+-webkit-box-shadow: 0px 3px 5px 2px rgba(227,222,222,1);
+-moz-box-shadow: 0px 3px 5px 2px rgba(227,222,222,1);
+transition: .5s;
+}
+section.secondSection .mxg{
+color: rgb(42, 42, 51);
+-webkit-font-smoothing: antialiased;
+text-transform: none;
+font-family: "Ivar Headline", "Ivar Headline Subset", "Times New Roman", serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+margin: 0px;
+}
+section.secondSection .mxg2{
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+list-style: none;
+cursor: pointer;
+text-align: center;
+box-sizing: border-box;
+color: rgb(42, 42, 51);
+-webkit-font-smoothing: antialiased;
+text-transform: none;
+font-family: "Open Sans", Tahoma, Geneva, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin: 16px 0px 0px;
+}
+section.secondSection .cardBtn{
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 106, 255);
+color: rgb(0, 106, 255);
+font-weight: 600;
+transition: .5s;
+}
+section.secondSection .paddintTop{
+padding-top: 3rem;
+padding-bottom: 7rem;
+}
+.cardBox:hover{
+transform: translateY(-10px);
+}
+.cardBox:hover .cardBtn{
+color: rgb(255, 255, 255);
+background-color: rgb(0, 106, 255);
+}
+.drpBtn{
+border: none;
+border-right: 1px solid rgb(121, 119, 119);
+padding-top: 10px;
+padding-bottom: 10px;
+background: none;
+font-weight: 600;
+font-size: 17px;
+}
+.drpBtn a , .drpBtn-last a{
+text-decoration: none;
+color: black;
+}
+.drpBtn-last{
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+background: none;
+font-weight: 600;
+}
+.list ul{
+margin-top: 2rem;
+}
+.list ul li{
+list-style: none;
+padding: 8px;
+}
+.option .optionList{
+text-decoration: none;
+color: rgb(37, 36, 36);
+font-size: 15px;
+margin: 10px;
+}
+.infoOpt{
+text-decoration: none;
+text-align: center;
+padding-top: 1.5rem;
+padding-bottom: 1rem;
+}
+.smallpsgs p , .smallpsgs a{
+font-size: 10px;
+width: 53%;
+margin: auto;
+}
+.btnStore .btn-icon{
+font-size: 12px;
+}
+.btnStore .dnldText{
+font-size: 10px;
+line-height: 0%;
+}
+.btnStore .bldText{
+font-weight: 600;
+font-size: 13px;
+line-height: 0px;
+}
+.btnStore button{
+width: 130px;
+}
+.endLine span{
+font-size: 15px;
+color: rgb(42, 42, 43);
+margin: 10px;
+}
+.endLine i{
+color: rgb(48, 109, 251);
+font-size: 30px;
+margin: 10px;
+cursor: pointer;
+}
